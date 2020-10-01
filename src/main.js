@@ -6,7 +6,7 @@ import router from './router'
 
 // reverse proxy front-end request to http://localhost:8443/api
 var axios = require('axios')
-axios.defaults.baseURL = 'http://localhost:8443/api'
+axios.defaults.baseURL = 'http://68.183.135.61:8080/api'
 Vue.prototype.$axios = axios
 
 Vue.config.productionTip = false
